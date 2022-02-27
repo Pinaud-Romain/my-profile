@@ -1,0 +1,107 @@
+body {
+    background-color: white;
+    background-image: url("images/IESEG+Logo.jpeg");
+    background-repeat:no-repeat;
+    background-size: 1390px 450px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: Arial, serif;
+    color: #051367;
+}
+h2 {
+    color: #051367;
+}
+.img-circle {
+    border-radius: 50%;
+}
+#logo {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Custom design with class */
+
+.container {
+    position:absolute;
+    width: 700px;
+    margin: 40px auto;
+    left: 20%;
+    right: 20%;
+    margin-top: 100px;
+}
+@media (max-width: 760px) {
+    body {
+        background-image: none;
+    }
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-image: none;
+    }
+    .container {
+        width: 400px;
+    }
+}
+
+
+.card-white {
+    background-color: #EEEDDE;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 20px;
+    text-align: center;
+}
+.card-white p {
+    font-size: 18px;
+}
+.btn-darkblue {
+    background-color: #051367;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-darkblue:hover {
+    background-color: #495371;
+    color: white;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-horizontal {
+     list-style: none;
+    padding-left: 0px;
+}
+.list-horizontal li {
+    display: inline-block;
+    padding: 20px;
+}
+.list-horizontal i {
+    font-size: 45px;
+    color: #051367;
+}
+.list-horizontal i:hover {
+    color: #495371;
+}
+#introduction p {
+    margin-bottom: 50px;
+}
+#introduction img {
+    margin-bottom: 20px;
+}
+
+
+
+
+
